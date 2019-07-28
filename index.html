@@ -5,34 +5,43 @@
         <title>Project 4.6</title>
         <link rel="stylesheet" href="vendor/bootstrap-grid.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-        <link rel="stylesheet" href="style/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Permanent+Marker|Roboto+Slab&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
-            <div class="container">
-                <nav class="navigation">
-                    <a class="brand" href="#main-page" id="main-page">Golden</a>
-                    <li>
-                        <a href="#main-page">HOME</a>
-                    </li>
-                    <li>
-                        <a href="#services">SERVICES</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a href="#about">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="#contact">CONTACT</a>
-                    </li>
-                </nav>
-                <div class="splash-inner">
-                    <h1 class="page-title">Welcome To Our Studio!</h1>
-                    <h2 class="page-subtitle">IT'S NICE TO MEET YOU</h2>
-                    <button class="btn" href="#about">TELL ME MORE</button>
+            <div class="darken-overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="brand-area col-5">
+                            <a class="brand" href="#main-page" id="main-page">Golden</a>
+                        </div>
+                        <nav class="navigation col-7">
+                            <ul>
+                                <li>
+                                    <a href="#main-page">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#services">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="splash-inner">
+                        <h1 class="page-title">Welcome To Our Studio!</h1>
+                        <h2 class="page-subtitle">It's nice to meet you</h2>
+                        <button class="btn">TELL ME MORE</button>
+                    </div>
                 </div>
             </div>
         </header>
@@ -41,64 +50,65 @@
                 <h2 class="section-title">SERVICES</h2>
                 <p class="section-description">Proin iacullis purus consequata sem cure.</p>
                 <div class="row">
-                    <div class="service">
+                    <div class="service col-4">
                         <i class="fas fa-shopping-basket"></i>
                         <h3>E-Commerce</h3>
                         <p>Proin iacullis purus consequata sem cure digini ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </div>
-                    <div class="service">
+                    <div class="service col-4">
                         <i class="fab fa-readme"></i>
                         <h3>Responsive Web</h3>
                         <p>Proin iacullis purus consequata sem cure digini ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </div>
-                    <div class="service">
+                    <div class="service col-4">
                         <i class="fas fa-lock"></i>
                         <h3>Web Security</h3>
                         <p>Proin iacullis purus consequata sem cure digini ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </div>
                 </div>
             </div>
-        </section class="our-portfolio">
+        </section>
+        <section class="our-portfolio" id="portfolio">
             <div class="container">
                 <h2 class="section-title">OUR PORTFOLIO</h2>
                 <p class="section-description">Proin iacullis purus consequata sem cure.</p>
-                <div class="row">
-                    <div class="card">
+                <div class="row d-flex justify-content-between">
+                    <div class="card col-4">
                         <img class="card-img" src="images/portfolio1.jpg" alt="branding">
                         <div class="card-body">
                             <h3 class="card-title">Ebony & Ivory</h3>
                             <p class="card-description">Branding</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card col-4">
                         <img class="card-img" src="images/portfolio2.jpg" alt="smart-stationary">
                         <div class="card-body">
                             <h3 class="card-title">Smart Stationary</h3>
                             <p class="card-description">Print Design</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card col-4">
                         <img class="card-img" src="images/portfolio3.jpg" alt="poster">
                         <div class="card-body">
                             <h3 class="card-title">Clever Poster</h3>
                             <p class="card-description">Print Design</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card col-4">
                         <img class="card-img" src="images/portfolio4.jpg" alt="vinyl">
                         <div class="card-body">
                             <h3 class="card-title">Vinyl Record</h3>
                             <p class="card-description">Product Mock-Up</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card col-4">
                         <img class="card-img" src="images/portfolio5.jpg" alt="template">
                         <div class="card-body">
                            <h3 class="card-title">Treehouse Template</h3>
                             <p class="card-description">Web Design</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card col-4">
                         <img class="card-img" src="images/portfolio6.jpg" alt="logo">
                         <div class="card-body">
                             <h3 class="card-title">Burned Logo</h3>
@@ -107,16 +117,15 @@
                     </div>
                 </div>
             </div>
-        <section>
         </section>
         <footer class="page-footer">
             <div class="container">
-                <div class="row">
-                    <div>
+                <div class="row justify-content-start">
+                    <div class="copyright col-4">
                         <p><i class="far fa-copyright"></i> Copyright 2014 FreebiesXpress.com</p>
                     </div>
-                    <div>
-                        <ul class="social">
+                    <div class="social-box col-4">
+                        <ul class="social" id="contact">
                             <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
                             <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
                             <li><a href="#"><i class="fab fa-pinterest-p"></i>Pinterest</a></li>
